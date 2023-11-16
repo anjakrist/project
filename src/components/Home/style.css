@@ -11,6 +11,7 @@
     font-size: 18px;
     text-align: left;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(142, 162, 149);
   }
   
   .home .title p {
@@ -26,7 +27,7 @@
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 999px;
-    background-color: #597bd2;
+    background-color:rgb(233, 198, 92);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   
@@ -54,4 +55,8 @@
     .home .person img {
       width: 100%;
     }
+  }
+
+  .font-link {
+    font-family: 'DM Mono', monospace;
   }
