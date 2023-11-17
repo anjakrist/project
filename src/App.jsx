@@ -4,7 +4,7 @@ import Home from "./components/Home"
 import About from "./components/About"
 import Footer from "./components/Footer"
 import "./App.css"
-
+// ^^ just importing all the other components from other files, and running them here so they are output here. Not completley sure how this works, nobody explained 'Router, Switch, Route' in any videos i looked up :(
 const  App = () =>{
   return (
    <Router>

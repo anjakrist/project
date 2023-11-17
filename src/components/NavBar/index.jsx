@@ -1,13 +1,14 @@
-import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react"; // this import allows to use 'useState' hook for managing state and 'useEffect' for handling side effects
+import { Link, useLocation } from "react-router-dom"; // link for navigation, button usage, useLocation for locating the current location of an objact in a react component.
 import "./style.css";
 
-const NavBar = () => {
+
+const NavBar = () => { // setting up use for navbar
   const [open, setOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(0);
   const location = useLocation();
 
-  const trackScreenWidth = () => {
+  const trackScreenWidth = () => { 
     const width = window.innerWidth;
     setScreenWidth(width);
     if (width > 600) {
@@ -74,15 +75,6 @@ const NavBar = () => {
                 style={{ color: location.pathname === "/about" && "#4071f4" }}
               >
                 About Me
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/Knitting"
-                onClick={handleClose}
-                style={{ color: location.pathname === "/" && "#4071f4" }}
-              >
-                Knitting
               </Link>
             </li>
           </ul>

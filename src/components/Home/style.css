@@ -12,14 +12,19 @@
     text-align: left;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(142, 162, 149);
+    border: 5 px;
+    border-color: rgb(142, 162, 149);
   }
   
   .home .title p {
     line-height: 50px;
+    border: 5 px;
+    border-color: rgb(142, 162, 149)
   }
   
   .home .title button {
-    border: none;
+    border: 5 px;
+    border-color: rgb(187, 163, 93);
     outline: none;
     cursor: pointer;
     font-size: 24px;
@@ -60,3 +65,7 @@
   .font-link {
     font-family: 'DM Mono', monospace;
   }
+
+  .photo {
+    border-radius: 10px;  
+}

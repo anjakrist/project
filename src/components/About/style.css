@@ -5,3 +5,8 @@
   .about h1 {
     margin-bottom: 20px;
   }
+
+  .photo {
+    border-radius: 10px; 
+}
+
