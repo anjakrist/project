@@ -1,9 +1,9 @@
 import './style.css'; // Importing styling from the .css folder
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; // using this to make a word linked to the knitting page
 
 
-// Code for displaying text and image for the 'About' page
+// code for displaying text and image for the 'About' page
 
 const About = () => {
     return (

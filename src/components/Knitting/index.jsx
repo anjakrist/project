@@ -1,8 +1,9 @@
 import './style.css'; // Importing styling from the .css folder
-import React, {useState} from "react";
+import React, {useState} from "react"; // Importing react & useState
 
 
 const Knitting = () => {
+    // using useState to hold images
     const [imageSources, setImageSources] = useState({
         uncw: "/uncw.jpg",
         new_uncw: "/uncw2.jpg",
@@ -23,7 +24,7 @@ const Knitting = () => {
         coolSock: "/coolsock.jpg",
         new_coolSock: "/coolsock2.jpg",
       });
-
+// function for image hovering and updating the pictures
     const handleImageHover = (imageId, isHovered) => {
         setImageSources((prevImageSources) => ({
           ...prevImageSources,
@@ -33,7 +34,7 @@ const Knitting = () => {
         }));
       };
 
-    return (
+    return ( // creating the output for the component - utilizing the 'table' component to make a grid to display images
         <div className="Knitting">
             <div>
                 <h1>Knitting</h1>
@@ -43,7 +44,7 @@ const Knitting = () => {
                     <tr>
                         <th>
                             <img src={imageSources.uncw} alt="uncw" width= "350 px" className="photos"
-                            onMouseOver={() => handleImageHover("uncw", true)}
+                            onMouseOver={() => handleImageHover("uncw", true)} 
                             onMouseOut={() => handleImageHover("uncw", false)}/>
                             <p>UNCW Hat - worsted weight yarn, my own pattern (~5 hours)</p>
                             

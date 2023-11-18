@@ -1,7 +1,7 @@
-// this is adding a link from my GitHub to create an image for the link
+
 import "./style.css";
 
-const Footer = () => { // Creating the linked icons for the footer of the webpage.
+const Footer = () => { // Creating the linked icons for the footer of the webpage, that are able to send the user to my github and linked page.
   return (
     <footer>
       <a 

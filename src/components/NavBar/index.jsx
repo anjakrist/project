@@ -7,6 +7,7 @@ const NavBar = () => { // setting up use for navbar
   const [screenWidth, setScreenWidth] = useState(0);
   const location = useLocation();
 
+  // tracking the screenwidth and force opening the navbar if the tab is less than 600 pixels
   const trackScreenWidth = () => { 
     const width = window.innerWidth;
     setScreenWidth(width);
@@ -14,7 +15,7 @@ const NavBar = () => { // setting up use for navbar
       setOpen(true);
     }
   };
-
+// autoclosing the navbar if the tab is maximized
   const handleClose = () => {
     if (screenWidth < 600) {
       setOpen(false);
@@ -27,11 +28,11 @@ const NavBar = () => { // setting up use for navbar
     return () => window.removeEventListener("resize", trackScreenWidth);
   }, []);
 
-  return (
+  return ( // linking all things in navbar to have functionality. logo returns to home, burger opens navbar, cross closes navbar, and the three links are linked to the three pages of the site.
     <nav className="navbar">
       <div className="nav-wrapper">
         <div className="logo">
-          <Link to="/">
+          <Link to="/"> 
             <img
               src="/sun.png"
               alt="sunshine"
