@@ -7,8 +7,8 @@ const Knitting = () => {
     const [imageSources, setImageSources] = useState({
         uncw: "/uncw.jpg",
         new_uncw: "/uncw2.jpg",
-        smock: "/smocker.jpg",
-        new_smock: "/smocker2.jpg",
+        sweater: "/sweater.jpg",
+        new_sweater:"/sweater2.jpg",
         warmSock: "/warmsock.jpg",
         new_warmSock: "/warmsock2.jpg",
         ogSweater: "/ogsweater.jpg",
@@ -52,11 +52,10 @@ const Knitting = () => {
                             
                         </th>
                         <th>
-                            <img src={imageSources.smock} alt="smock" width="364 px" className="photos"
-                            onMouseOver={() => handleImageHover("smock", true)}
-                            onMouseOut={() => handleImageHover("smock", false)}
-                            />
-                            <p>Smock Sweater - DK weight yarn & silk, pattern by PetiteKnit (~150 hours)</p>
+                        <img src={imageSources.sweater} alt="sweater" width= "350 px" className="photos"
+                            onMouseOver={() => handleImageHover("sweater", true)} 
+                            onMouseOut={() => handleImageHover("sweater", false)}/>
+                            <p>My next project in the works! Little Crystals sweater by CelineKnits</p>
                         </th>
                         <th>
                             <img src={imageSources.warmSock} alt="warm sock" width="350px" className="photos"
