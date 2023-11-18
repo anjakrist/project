@@ -11,3 +11,15 @@ footer {
   footer img:not(:last-child) {
     margin-right: 10px;
   }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
+footer a {
+  margin: 0 10px;
+}
+

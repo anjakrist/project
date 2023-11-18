@@ -37,9 +37,11 @@ const Knitting = () => {
     return ( // creating the output for the component - utilizing the 'table' component to make a grid to display images
         <div className="Knitting">
             <div>
+                <div className="text">
                 <h1>Knitting</h1>
                 <br/>
                 <p>Here are some recent projects I have made! </p>
+                </div>
                 <table className="knits">
                     <tr>
                         <th>
