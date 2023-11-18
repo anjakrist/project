@@ -1,10 +1,12 @@
 .about {
     flex-grow: 1;
+    font-weight: thick
   }
   
-  .about h1 {
+.about h1 {
     margin-bottom: 20px;
   }
+
 
   .photo {
     border-radius: 10px; 

@@ -1,5 +1,6 @@
 import './style.css'; // Importing styling from the .css folder
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 // Code for displaying text and image for the 'About' page
@@ -32,7 +33,7 @@ const About = () => {
             </p>
             <br/>
             <p>
-            Outside of school, I enjoy hiking, knitting, and talking with friends. Fun Fact! I get paid to 'test knit' knitting patterns for knitting designers - it's a really niche way to make a bit of extra cash!
+            Outside of school, I enjoy hiking, <Link to ="Knitting">knitting</Link>, and talking with friends. Fun Fact! I get paid to 'test knit' knitting patterns for knitting designers - it's a really niche way to make a bit of extra cash!
             </p>
         
         </div>
