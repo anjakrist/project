@@ -19,7 +19,7 @@ const About = () => {
             <br/> 
             <h1>About Me</h1>
             <p>
-                Hi! My name is Anja Kristoffersen, and I am a freshman at UNC-Chapel Hill. I intend to major in Computer Science and minor in English Literature.
+                Hi! My name is Anja Kristoffersen, and I am a freshman at UNC-Chapel Hill. I intend to major in Computer Science and minor in MEMS.
             </p>
             <br/>
             <p>
